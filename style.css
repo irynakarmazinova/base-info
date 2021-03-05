@@ -18,6 +18,8 @@
 }
 /* ПОТОМ УДАЛИТЬ-ДЛЯ ПРОВЕРКИ */
 
+:root {}
+
 body {
   color: var(--primary-text-color);
   font-family: var(--primary-font);
