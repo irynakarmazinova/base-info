@@ -96,3 +96,4 @@ npx mrm@2 lint-staged
   -либо поставить пакет npm install modern-normalize<br> 
  в index.js import 'node_modules/modern-normalize/modern-normalize.css'; (первую часть node_modules нужно удалить из импорта, те нужно вставить import 'modern-normalize/modern-normalize.css';)<br>
   https://github.com/sindresorhus/modern-normalize
+    ------------------------------------------------------------------------<br> 
