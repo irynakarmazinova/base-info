@@ -89,3 +89,6 @@ npx mrm@2 lint-staged
   https://www.npmjs.com/package/prop-types<br>
   npm i prop-types<br>
   ------------------------------------------------------------------------<br> 
+  # Установить нормализцаию в проект<br> 
+  -либо в index.css прописать вверху файла @import-normalize;<br> 
+  -либо поставить пакет npm install modern-normalize<br> 
