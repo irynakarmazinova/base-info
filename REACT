@@ -100,3 +100,10 @@ npx mrm@2 lint-staged
     # SASS<br> 
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/<br> 
     ------------------------------------------------------------------------<br> 
+# В конце для деплоя ни гитхаб<br> 
+1. https://create-react-app.dev/docs/deployment#github-pages<br> 
+в package.json  - "homepage": "https://irynakarmazinova.github.io/goit-react-hw-01-components",<br> 
+2. установить gh-pages<br> 
+npm install --save gh-pages<br> 
+добавить в скрипты (    "deploy": "gh-pages -d build", "predeploy": "npm run build")<br> 
+    
