@@ -106,4 +106,6 @@ https://create-react-app.dev/docs/adding-a-sass-stylesheet/<br>
 2. установить gh-pages<br> 
 npm install --save gh-pages<br> 
 добавить в скрипты (    "deploy": "gh-pages -d build", "predeploy": "npm run build")<br> 
-    
+------------------------------------------------------------------------<br> 
+# classNames<br> 
+https://www.npmjs.com/package/classnames<br> 
