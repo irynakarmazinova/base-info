@@ -1,21 +1,20 @@
 # REACT
   npx create-react-app . - установить в этой папке<br>
-    https://create-react-app.dev/docs/getting-started/<br>
+  https://create-react-app.dev/docs/getting-started/<br>
   добавить .gitignore, .prettierrc.json/yaml<br>
   ------------------------------------------------------------------------<br>
 # Настройка pre-commit хуков
 
 ## 1 - Установка зависимостей
 
-Установить в проект следующие пакеты.
-
-добавить как зависимость разработки<br>    
+Установить в проект следующие пакеты. Добавить как зависимость разработки<br>    
 ```bash
   npm install --save-dev prettier husky lint-staged eslint
 ```
   
 Добавить файлы в корень проекта:<br>
-  .prettierrc.yaml (   
+
+.prettierrc.yaml (   
 printWidth: 80
 tabWidth: 2
 useTabs: false
@@ -27,12 +26,14 @@ jsxBracketSameLine: false
 arrowParens: avoid
 proseWrap: always
 )<br>
+
 .huskyrc ({
   "hooks": {
     "pre-commit": "lint-staged"
   }
 })<br>
-  .lintstagedrc ({
+
+.lintstagedrc ({
   "src/**/*.{json,css,scss,md}": ["prettier --write"],
   "src/**/*.{js,jsx,ts,tsx}": ["prettier --write", "eslint --fix"]
 })<br>
@@ -85,27 +86,34 @@ npx mrm@2 lint-staged
   "include": ["src"]
 })<br> 
   ------------------------------------------------------------------------<br> 
-  # Установить пакет prop-types в проект<br>
-  https://www.npmjs.com/package/prop-types<br>
-  npm i prop-types<br>
-  ------------------------------------------------------------------------<br> 
-  # Установить нормализцаию в проект<br> 
-  -либо в index.css прописать вверху файла @import-normalize;<br> 
-  https://create-react-app.dev/docs/adding-css-reset/<br> 
+# Установить пакет prop-types в проект<br>
+https://www.npmjs.com/package/prop-types<br>
+
+npm i prop-types<br>
+------------------------------------------------------------------------<br> 
+# Установить нормализцаию в проект<br> 
+-либо в index.css прописать вверху файла @import-normalize;<br> 
+https://create-react-app.dev/docs/adding-css-reset/<br> 
   
-  -либо поставить пакет npm install modern-normalize<br> 
- в index.js import 'node_modules/modern-normalize/modern-normalize.css'; (первую часть node_modules нужно удалить из импорта, те нужно вставить import 'modern-normalize/modern-normalize.css';)<br>
-  https://github.com/sindresorhus/modern-normalize
-    ------------------------------------------------------------------------<br> 
-    # SASS<br> 
+-либо поставить пакет npm install modern-normalize<br> 
+в index.js import 'node_modules/modern-normalize/modern-normalize.css'; (первую часть node_modules нужно удалить из импорта, те нужно вставить import 'modern-normalize/modern-normalize.css';)<br>
+https://github.com/sindresorhus/modern-normalize
+------------------------------------------------------------------------<br> 
+# SASS<br> 
 https://create-react-app.dev/docs/adding-a-sass-stylesheet/<br> 
-    ------------------------------------------------------------------------<br> 
+------------------------------------------------------------------------<br> 
 # В конце для деплоя ни гитхаб<br> 
+
 1. https://create-react-app.dev/docs/deployment#github-pages<br> 
 в package.json  - "homepage": "https://irynakarmazinova.github.io/goit-react-hw-01-components",<br> 
+
 2. установить gh-pages<br> 
 npm install --save gh-pages<br> 
-добавить в скрипты (    "deploy": "gh-pages -d build", "predeploy": "npm run build")<br> 
+добавить в скрипты (      "predeploy": "npm run build",
+    "deploy": "gh-pages -d build")<br> 
 ------------------------------------------------------------------------<br> 
 # classNames<br> 
 https://www.npmjs.com/package/classnames<br> 
+
+npm install classnames
+var classNames = require('classnames');
