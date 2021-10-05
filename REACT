@@ -56,6 +56,12 @@ npx mrm lint-staged
 npx mrm@2 lint-staged
 ```
 
+исправить в package.json
+  "lint-staged": {
+    "*.{js,jsx}": "eslint --cache --fix",
+    "*.{js,css,jsx,scss,md}": "prettier --write"
+  }
+
 ## 3 - Интерграция плагинов
 
 Ссылки на документацию по интеграции плагинов в популярные редакторы.
