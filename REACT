@@ -2,6 +2,9 @@
   npx create-react-app . - установить в этой папке<br>
   https://create-react-app.dev/docs/getting-started/<br>
   добавить .gitignore, .prettierrc.json/yaml<br>
+  
+  установить готовый проект, установить зависимости с него
+  npm i
   ------------------------------------------------------------------------<br>
 # Настройка pre-commit хуков
 
