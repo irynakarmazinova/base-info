@@ -13,6 +13,9 @@
 Установить в проект следующие пакеты. Добавить как зависимость разработки<br>    
 ```bash
   npm install --save-dev prettier husky lint-staged eslint
+  
+  eslint- не ставиться новые версии, нужна старая 
+  "eslint": "^7.32.0",
 ```
   
 Добавить файлы в корень проекта:<br>
@@ -127,3 +130,5 @@ https://www.npmjs.com/package/classnames<br>
 
 npm install classnames
 var classNames = require('classnames');
+------------------------------------------------------------------------<br> 
+https://www.npmjs.com/package/react-router-dom
