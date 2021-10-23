@@ -86,7 +86,7 @@ i - установка в dependencies(--save; требуются для зап�
 
 https://docs.npmjs.com/uninstalling-packages-and-dependencies<br>
 
-npm uninstall <name> удаляет модуль из node_modules, но не package.json<br> npm
-uninstall <name> --save также удаляет его из dependencies в package.json<br> npm
-uninstall <name> --save-dev также удаляет его из devDependencies в
-package.json<br> npm -g uninstall <name> --save также удаляет его глобально<br>
+npm uninstall <name> удаляет модуль из node_modules, но не package.json<br> 
+npm uninstall <name> --save также удаляет его из dependencies в package.json<br>
+npm uninstall <name> --save-dev также удаляет его из devDependencies в package.json<br>
+npm -g uninstall <name> --save также удаляет его глобально<br>
