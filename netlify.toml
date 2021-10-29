@@ -1,0 +1,29 @@
+[build]
+    publish = "build"
+
+[[redirects]]
+    from = "/*"
+    to = "index.html"
+    status = 200
+    ---------------------------------------
+    https://www.npmjs.com/package/netlify-cli
+    
+    npm install netlify-cli -g
+    netlify login - autorize
+    
+    in package.json
+    delete homepage
+    in scripts  "predeploy": "npm run build", "deploy": "netlify deploy -p"
+    ---------------------------------------
+    при первом деплое приложки надо создать и настроить для него проект на нетлифай
+    npm run deploy
+    Create & configure a new site  
+    irynakarmazinova     
+    ikg-goit-react-hw-05-movies - перед именем проекта написать произволный тег-напри мои инициалы
+    ---------------------------------------
+    перейти посмотреть результат
+    Website URL:       https://ikg-goit-react-hw-05-movies.netlify.app
+    или
+    netlify open --site
+    
+    
