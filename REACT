@@ -132,3 +132,5 @@ npm install classnames
 var classNames = require('classnames');
 ------------------------------------------------------------------------<br> 
 https://www.npmjs.com/package/react-router-dom
+
+https://www.npmjs.com/package/slugify
