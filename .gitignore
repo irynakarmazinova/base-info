@@ -3,6 +3,9 @@
 .vscode/
 .idea/
 
+# ignore all . folders but include . files 
+.*/
+
 # Logs
 logs
 *.log
