@@ -1,7 +1,15 @@
 https://redux.js.org/introduction/getting-started
-
 npm install redux
 npm install react-redux
 
 https://github.com/zalmoxisus/redux-devtools-extension
 npm install --save-dev redux-devtools-extension
+
+https://redux-toolkit.js.org/introduction/getting-started
+npm install @reduxjs/toolkit
+в тулките уже встроены девтулзы, отдельно устанавливать не нужно
+
+https://www.npmjs.com/package/redux-logger - прослойка
+npm i --save redux logger
+
+https://www.npmjs.com/package/redux-persist
