@@ -13,3 +13,4 @@ https://www.npmjs.com/package/redux-logger - прослойка
 npm i --save redux logger
 
 https://www.npmjs.com/package/redux-persist
+npm i redux-persist
