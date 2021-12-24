@@ -1,0 +1,12 @@
+use database_name - create database 'todoapp' with next command - перейти(подключиться)/создать БД
+>show dbs - list your database with command - посмотреть список БД
+>db.createCollection("SSSIT") - use this command to create collection - SSSIT это параметр названия коллекции
+>show collection - list your collections - показать список коллекций в этой БД
+>db.SSSIT.insert({"name":"seomount"}) - добавить в эту БД документ. SSSIT-название коллекции
+
+crud operations
+db.collection_name.find({}) - искать док
+db.javatpoint.remove({type:"programming language"}) - удалить док
+db.javatpoint.update({"course":"java"},{$set:{"course":"android"}}) - изменить
+db.javatpoint.insert({}) - добавить
+
