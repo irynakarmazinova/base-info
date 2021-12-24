@@ -7,6 +7,8 @@ use db-contacts - create database 'contacts' with next command - перейти(
 crud operations
 db.contacts.find({}) - искать док
 db.contacts.remove({type:"programming language"}) - удалить док
-db.contacts.update({"course":"java"},{$set:{"course":"android"}}) - изменить
-db.contacts.insert({test:"test", topic:"topic"}) - добавить
+db.contacts.deleteMany({type:"programming language"},{multi:true})
+db.contacts.deleteOne({type:"programming language",{multi:false}})
+db.contacts.update({"course":"java"},{$set:{"course":"android"},{multi:true}}) - изменить конкретные поля  
+db.contacts.insert({test:"test",topic:"topic"}) - добавить
 
