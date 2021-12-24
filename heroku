@@ -1,0 +1,6 @@
+git init
+git stage and commit
+
+heroku login
+heroku create (git remote -v)
+git push heroku master
